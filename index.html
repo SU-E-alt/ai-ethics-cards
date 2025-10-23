@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ethics Cards – Seeded Shuffle</title>
+  <meta name="description" content="Non-Human Ethics Card Deck – seeded shuffle per table, no login.">
+  style.css
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Non-Human Ethics Cards</h1>
+    <p>Tap “Next card” to draw. Each table gets its own seeded shuffle. Draw two to combine prompts for deeper debate.</p>
+    <p class="meta">Tip: Use your phone’s Reader mode if available for larger text.</p>
+  </header>
+  <div class="controls">
+    <button id="nextBtn">Next card</button>
+    <button id="twoBtn">Draw two cards</button>
+    <button id="resetBtn">Reset deck</button>
+    <button id="copyBtn">Copy summary</button>
+    <button id="submitBtn">Submit summary</button>
+  </div>
+  <div class="meta">
+    <span class="pill" id="tablePill"></span>
+    <span class="pill" id="remainingPill"></span>
+  </div>
+  <div id="singleCard" class="card" style="display:none"></div>
+  <div id="twoCards" class="two-col" style="display:none">
+    <div id="leftCard" class="card"></div>
+    <div id="rightCard" class="card"></div>
+  </div>
+  <div class="footer">
+    <p>Card titles and prompts from Echo.docx. Anchors added to connect metaphors to concrete AI contexts, including more-than-human stakeholders.</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
