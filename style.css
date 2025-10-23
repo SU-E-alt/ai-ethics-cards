@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ethics Cards – Seeded Shuffle</title>
+  <meta name="description" content="Non-Human Ethics Card Deck – seeded shuffle per table, no login.">
+  style.css
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 16px; line-height: 1.4; }
+    header { margin-bottom: 12px; }
+    .wrap { max-width: 760px; margin: 0 auto; }
+    .controls { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0 16px; }
+    button { padding: 12px 16px; font-size: 1rem; border-radius: 8px; border: 1px solid #888; background: #f7f7f7; cursor: pointer; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .card { border: 1px solid #bbb; border-radius: 12px; padding: 16px; margin-bottom: 12px; background: #fff; }
+    .title { font-weight: 700; font-size: 1.2rem; margin-bottom: 8px; }
+    .prompt { margin: 6px 0 10px; }
+    .anchors { margin-top: 8px; }
+    .meta { font-size: 0.9rem; color: #555; margin-top: 6px; }
+    .footer { font-size: 0.85rem; color: #666; margin-top: 20px; }
+    .two-col { display: grid; grid-template-columns: 1fr; gap: 12px; }
+    @media (min-width: 680px) { .two-col { grid-template-columns: 1fr 1fr; } }
+    .pill { display: inline-block; padding: 4px 8px; border: 1px solid #aaa; border-radius: 999px; font-size: 0.8rem; margin-right: 6px; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Non-Human Ethics Cards</h1>
+    <p>Tap “Next card” to draw. Each table gets its own seeded shuffle. Draw two to combine prompts for deeper debate.</p>
+    <p class="meta">Tip: Use your phone’s Reader mode if available for larger text.</p>
+  </header>
+  <div class="controls">
+    <button id="nextBtn">Next card</button>
+    <button id="twoBtn">Draw two cards</button>
+    <button id="resetBtn">Reset deck</button>
+    <button id="copyBtn">Copy summary</button>
+    <button id="submitBtn">Submit summary</button>
+  </div>
+  <div class="meta">
+    <span class="pill" id="tablePill"></span>
+    <span class="pill" id="remainingPill"></span>
+  </div>
+  <div id="singleCard" class="card" style="display:none"></div>
+  <div id="twoCards" class="two-col" style="display:none">
+    <div id="leftCard" class="card"></div>
+    <div id="rightCard" class="card"></div>
+  </div>
+  <div class="footer">
+    <p>Card titles and prompts from Echo.docx. Anchors added to connect metaphors to concrete AI contexts, including more-than-human stakeholders.</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
