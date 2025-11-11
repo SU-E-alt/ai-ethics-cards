@@ -31,4 +31,4 @@ This project provides an interactive card deck for exploring ethical accountabil
 
 ## License
 
-This project is licensed under the Creative Commons Attribution 4.0 International License © 2025 Sue Jowsey.
+This project is licensed under the Creative Commons Attribution 4.0 International License © 2025 Susan E. Jowsey.
