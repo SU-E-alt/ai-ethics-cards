@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ethics Cards – Seeded Shuffle</title>
-  <meta name="description" content="Non-Human Ethics Card Deck – seeded shuffle per table, no login.">
+  <meta name="description" content="Human-in-the-Loop AI Ethics Card Deck – seeded shuffle per table, no login.">
   style.css
   <style>
     :root { color-scheme: light dark; }
@@ -28,7 +28,7 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>Non-Human Ethics Cards</h1>
+    <h1>Human-in-the-Loop AI Ethics Card Deck</h1>
     <p>Tap “Next card” to draw. Each table gets its own seeded shuffle. Draw two to combine prompts for deeper debate.</p>
     <p class="meta">Tip: Use your phone’s Reader mode if available for larger text.</p>
   </header>
