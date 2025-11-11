@@ -55,11 +55,13 @@
 <script src="script.js"></script>
 </body>
 </html>
-.context,
-.ethical,
-.awareness,
-.practice {
-  margin-top: 10px;
+.card .context,
+.card .ethical,
+.card .awareness,
+.card .practice {
+  margin-top: 12px;
+  padding-top: 6px;
+  border-top: 1px solid #eee;
   font-style: italic;
   color: #333;
 }
