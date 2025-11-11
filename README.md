@@ -20,5 +20,10 @@ This project provides an interactive card deck for exploring human ethics in AI 
 - Include images by adding an `image` field to each card.
 - Replace the placeholder form URL in `script.js` with your actual Google Form link.
 
+### Ethics Cards Update – November 2025
+- Replaced the `CARDS` array in `script.js` with a new set of 10 ethics cards.
+- Updated `renderCard()` to display new fields: `context`, `ethical_challenge`, `ethical_awareness`, and `application_in_practice`.
+- Added basic CSS styles for new fields in `styles.css`.
+
 ## License
 This project is licensed by AUT. All rights reserved.
