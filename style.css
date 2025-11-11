@@ -55,3 +55,11 @@
 <script src="script.js"></script>
 </body>
 </html>
+.context,
+.ethical,
+.awareness,
+.practice {
+  margin-top: 10px;
+  font-style: italic;
+  color: #333;
+}
