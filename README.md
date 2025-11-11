@@ -1,6 +1,6 @@
-# AI Bootcamp Ethics Card Deck
+# AI Bootcamp Human-in-the-Loop Ethics Card Deck
 
-This project provides an interactive card deck for exploring non-human ethics in AI systems. Each table receives a unique seeded shuffle to guide discussion.
+This project provides an interactive card deck for exploring human ethics in AI systems. Each table receives a unique seeded shuffle to guide discussion.
 
 ## Features
 - Seeded shuffle per table using URL parameters
